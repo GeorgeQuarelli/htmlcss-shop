@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+i {
+    opacity: 0;
+}
+
+.riga1 {
+    border: 3px solid black;
+    top: 150px;
+    left: 20%;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 30px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+.riga2 {
+    border: 3px solid black;
+    top: 150px;
+    left: 20%;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 30px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.riga1:hover i {
+    opacity: 100;
+}
+
+.riga2:hover i {
+    opacity: 100;
+}
+
+.sconto {
+    padding: 3px;
+    top: 10px;
+    right: 0;
+    position: absolute;
+    color: white;
+    background-color: red;
+}
+
+.riga1:first-child {
+    background-image: url(img/iphone.jpg);
+}
+
+.riga1:nth-child(2) {
+    background-image: url(img/s20.jpg);
+}
+
+.riga1:last-child {
+    background-image: url(img/9t.jpg);
+}
+
+.riga2:first-child {
+    background-image: url(img/bose.jpg);
+}
+
+.riga2:nth-child(2) {
+    background-image: url(img/mac.jpg);
+}
+
+.riga2:last-child {
+    background-image: url(img/nexus.jpg);
+}
