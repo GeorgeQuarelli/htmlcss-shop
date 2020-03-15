@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F2F2F2;
+    background-image: url(https://i.pinimg.com/originals/73/6c/a3/736ca32dff9564696d7d5daad75d1954.jpg);
 }
 
 i {
@@ -57,6 +57,15 @@ i {
     position: absolute;
     color: white;
     background-color: red;
+}
+
+.sconto2 {
+    padding: 3px;
+    top: 10px;
+    right: 0;
+    position: absolute;
+    color: white;
+    background-color: green;
 }
 
 .riga1:first-child {
