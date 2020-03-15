@@ -10,6 +10,10 @@ body {
 
 i {
     opacity: 0;
+    position: absolute;
+    top: 150px;
+    left: 125px;
+    color: white;
 }
 
 .riga1 {
